@@ -33,8 +33,9 @@
 
 // render(App, document.querySelector("#root"));
 
-import ReactDom from "./core/ReactDom.js";
-import App from "./App.js";
+import ReactDom from "./vite-runner/core/ReactDom.js";
+// 浏览器不支持 jsx 类型文件，所以需要依赖外部工具，例如webpack、vite、babel等。本项目采用当前最火的 vite
+import App from "./App.jsx";
 
 ReactDom.createRoot(document.querySelector("#root")).render(App);
 
