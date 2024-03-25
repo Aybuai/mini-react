@@ -1,4 +1,6 @@
-import React from "./core/React.js";
+// js pragma 自定义 react 名字
+/**@jsx MReact.createElement */
+import MReact from "./core/React.js";
 
 // const App = React.createElement("div", { id: "app" }, "hello ", "mini-react!3");
 
